@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Berfin Şalk Kişisel Web Sitesi</title>
+    <meta  name="description"content=""Berfin Şalk Kişisel Web Sitesi />
+    <meta name="keywords"content="berfin,kişisel,şalk,cv"/>
+   <style>
+ * {  
+ margin: 0px;
+ padding: 0px;
+  }
+ #sayfa{
+     width:900px;
+     min-height:600px;
+     border-style:solid;
+     border-color:black;
+     border-width:1px;
+     margin:auto; 
+     background-color:pink
+ }
+            /*BANNER*/
+       #banner {
+ width: 898px;
+height: 100px;
+ border-style:none;
+border-color:blue;
+ border-width:1px;
+ margin:auto;
+ background-color:white;
+       }
+               /*LOGO*/
+       #logo {
+ width: 100px;
+height: 80px;
+ border-style: none;
+border-width: 1px;
+background-color:white;
+position:relative;
+top:10px;
+left:10px;
+float:left;
+ }
+       /*SOSYAL MEDYA İKONLARI*/
+       #sosyal {
+width: 190px;
+ height: 40px;
+ border-style:none;
+border-width: 1px;
+ background-color: white;
+ float:right;
+ position:relative;
+ top:50px;
+right:10px;
+ }
+        /*ANA MENÜ*/
+#anamenu {
+ width: 898px;
+height: 100px;
+ border-style: solid;
+border-color: blue;
+border-width: 1px;
+margin: auto;
+background-color: lightskyblue
+
+       }
+#anamenu ul{
+    list-style-type:none;
+
+}
+#anamenu ul li{
+
+   border-style:solid;
+   width:200px;
+   border-width:3px;
+   border-radius:8px;
+   border-color:blue;
+   background-color:white;
+   float:left;
+   padding:4px;
+   margin-left:3px;
+   text-align:center;
+   position:relative;
+   top:15px;
+}
+#anamenu ul a{
+    font-family:Verdana;
+    font-weight:bold;
+    text-decoration:none;
+}
+#anamenu ul a:link{
+    color:blue
+}
+#anamenu ul a:visited{
+    color:brown
+}
+       #anamenu ul a:hover {
+           color: grey;
+           text-decoration:underline
+       }
+       #anamenu ul a:active {
+           color: red
+       }
+
+       /*İÇERİK VE YAN MENÜ*/
+       #icerik {
+           width: 800px;
+           min-height: 300px;
+           border-style: none;
+           border-width: 1px;
+           background-color: white;
+           float:left;
+
+       }
+       #yanmenu {
+           width: 100px;
+           min-height: 300px;
+           border-style: none;
+           border-width: 1px;
+           background-color:dodgerblue;
+           float: right;
+       }
+       .resim{
+           float:left;
+           width:100px;
+           margin:5px;
+       }
+       .metin{
+           color:darkblue;
+           font-family:'Times New Roman'
+       }
+       .başlık{
+           font-family:Georgia, 'Times New Roman', Times, serif;
+           font-size:30px;
+           color:red;
+           font-weight:bolder;
+           text-align:center
+       }
+        /*ALT MENÜ*/
+       #altmenu {
+           width: 898px;
+           height: 100px;
+           border-style: none;
+           border-width: 1px;
+           background-color: deepskyblue;
+           float: right;
+           text-align:center;
+               color:black
+       }
+       #altmenu a{
+           font-family:Verdana;
+           font-size:15px;
+           font-weight:bolder;
+           color:black;
+
+       }
+       #altmenu a:hover{
+           color:red;
+           text-decoration:underline
+       }
+   </style>
+</head>
+<body>
+    <div id="sayfa">
+        <header id="banner">
+            <div id="logo">
+                <a href="index.html"><img src="resimler/ben.png" height="80" width="100" alt="BERFİN ŞALK" title="BERFİN ŞALK" /></a>
+                
+                
+            </div>
+            <div id="sosyal">
+                <a href="berfinsalk.facebook">
+                    <img src="resimler/facebook.png" width="60"
+                         height="40" />
+                </a>
+                <a href="berfinsalk.instagram">
+                    <img src="resimler/instagram.png" width="60"
+                         height="40" />
+                </a>
+                <a href="berfinsalk.twitter">
+                    <img src="resimler/twitter.png" width="60"
+                         height="40" />
+                </a>
+
+
+            </div>
+
+        </header>
+        <nav id="anamenu">
+            <ul>
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="benkimim.html">BEN KİMİM</a></li>
+                <li><a href="eğitim.html">EĞİTİM</a></li>
+                <li><a href="iletisim.html">İLETİŞİM</a></li>
+
+            </ul>
+
+
+        </nav>
+        <article id="icerik">
+            <img class="resim" src="resimler/bayrak.jpg" alt="bayrak" title="türk bayrağı"/>
+            <h1 class="başlık">    Lorem İpsum Dolor   </h1>
+            <p class="metin">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ligula urna, vestibulum ac nibh ut, dictum egestas est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id fermentum est. Sed imperdiet aliquam ligula, at viverra augue faucibus maximus. Cras sollicitudin sapien sed lobortis sollicitudin. Nulla facilisi. Aliquam eget felis eget orci maximus ornare. Curabitur quis urna imperdiet, ornare mauris a, elementum felis. In eleifend commodo eros, id euismod ligula accumsan id. Duis interdum, risus id lacinia elementum, justo quam efficitur velit, sollicitudin lacinia enim mi quis nulla. Suspendisse massa orci, laoreet ultricies risus eget, imperdiet egestas leo. Suspendisse ullamcorper fermentum lobortis. Cras placerat tristique sapien ac condimentum. Quisque aliquam maximus mollis. Phasellus est mi, accumsan quis mollis sagittis, auctor vel quam.
+                Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi
+                Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipi Lorem ipsum dolor sit amet, consectetur adipiLorem ipsum dolor sit amet, consectetur adipi
+            </p>
+
+        </article>
+
+        <aside id="yanmenu">
+            <h1 class="başlık">A</h1>
+            <p>consectetur adipiscing elit. Morbi ligula urna, vestibulum ac nibh ut,</p>
+            <h1 class="başlık">B</h1>
+            <p>consectetur adipiscing elit. Morbi ligula urna, vestibulum ac nibh ut,</p>
+            
+        </aside>
+        <footer id="altmenu">
+           <a href="index.html">ANASAYFA</a> |
+           <a href="benkimim.html">BEN KİMİM</a> |
+           <a href="eğitim.html">EĞİTİM</a> |
+           <a href="iletisim.html">İLETİŞİM</a>
+            <br /> <br /><br />TÜM HAKLARI SAKLIDIR.
+        </footer>
+
+    </div>
+
+</body>
+</html>
